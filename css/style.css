@@ -1,0 +1,61 @@
+/* ===== CSS Reset ===== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== Body ===== */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===== Navbar ===== */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px ;
+    background-color: #0b5ed7;
+}
+
+/* Logo */
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* Right side actions */
+.nav-actions{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/* Search box */
+.search-box{
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+
+/* Login button */
+.login-btn{
+    padding: 8px 10px;
+    border: none;
+    background-color: white;
+    color: #0b5ed7;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.login-btn:hover{
+    color: blue;
+}
