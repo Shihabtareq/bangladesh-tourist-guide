@@ -30,3 +30,24 @@ prevBtn.addEventListener('click',()=>{
     showSlide(currnetSlide);
 });
 
+// slide automation 
+let slideInterval = setInterval(nextSlide,4000);
+
+function nextSlide(){
+    currnetSlide++;
+    if (currnetSlide>= slides.length){
+        currnetSlide=0;
+    }
+    showSlide(currnetSlide);
+}
+
+// Hover করলে Pause 
+const slider = document.querySelector('.slider');
+
+slider.addEventListener('mouseenter', ()=>{
+    clearInterval(slideInterval);
+});
+
+slider.addEventListener('mouseleave', ()=>{
+    slideInterval = setInterval(nextSlide, 4000);
+});
