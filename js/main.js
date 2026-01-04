@@ -56,3 +56,17 @@ slider.addEventListener('mouseleave', ()=>{
 
 
 /* ===== Slider Section END ===== */
+
+
+/* ===== Divisions Section START ===== */
+
+const divisionCards = document.querySelectorAll('.division-card');
+
+divisionCards.forEach(card =>{
+    card.addEventListener('click', ()=>{
+        const divisionName = card.CDATA_SECTION_NODE.division;
+        console.log("Selected Division:",divisionName);
+    });
+});
+
+/* ===== Divisions Section END ===== */
