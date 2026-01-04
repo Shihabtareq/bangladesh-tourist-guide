@@ -206,4 +206,37 @@ body{
     }
 }
 
+
+/* <!-- Data division section --> */
+.places{
+    padding: 60px 8%;
+}
+
+.places-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.place-card{
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.place-card img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.place-card .content{
+    padding: 15px;
+}
+
+.division-card h3{
+    margin-bottom: 8px;
+}
+
 /* ===== Division Section END ===== */
