@@ -1,3 +1,5 @@
+/* ===== Slider Section START ===== */
+
 // select elements 
 
 const slides = document.querySelectorAll('.slide');
@@ -51,3 +53,6 @@ slider.addEventListener('mouseenter', ()=>{
 slider.addEventListener('mouseleave', ()=>{
     slideInterval = setInterval(nextSlide, 4000);
 });
+
+
+/* ===== Slider Section END ===== */
