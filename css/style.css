@@ -192,19 +192,6 @@ body{
     background: #004d99;
 }
 
-/* Tablet Design  */
-@media(max-width:992px){
-    .division-grid{
-        grid-template-columns: repeat(2,1fr);
-    }
-}
-
-/* Mobile Design  */
-@media(max-width:576px){
-    .division-grid{
-        grid-template-columns: 1fr;
-    }
-}
 
 
 /* <!-- Data division section --> */
@@ -239,4 +226,31 @@ body{
     margin-bottom: 8px;
 }
 
+.division-hero{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+#division-name{
+    font-size: 60px;
+
+}
+
 /* ===== Division Section END ===== */
+
+
+/* Tablet Design  */
+@media(max-width:992px){
+    .division-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+/* Mobile Design  */
+@media(max-width:576px){
+    .division-grid{
+        grid-template-columns: 1fr;
+    }
+}
